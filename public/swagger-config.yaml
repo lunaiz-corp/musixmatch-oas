@@ -1,0 +1,14 @@
+configUrl: '/musixmatch-oas/swagger-config.yaml'
+
+docExpansion: none
+tagsSorter: alpha
+operationsSorter: alpha
+displayOperationId: false
+persistAuthorization: true
+displayRequestDuration: true
+
+urls:
+  - url: 'https://raw.githubusercontent.com/lunaiz-corp/musixmatch-oas/main/openapi.yaml'
+    name: Version 1.1.0
+
+validatorUrl: ''

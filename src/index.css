@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+
+body * {
+  font-family: 'Pretendard Variable', sans-serif !important;
+}
+
+code,
+code *,
+.redoc-wrap .redoc-json *,
+.redoc-wrap .property-name,
+.swagger-ui .opblock-summary-path * {
+  font-family: 'Elice Digital Coding', 'monospace' !important;
+}
